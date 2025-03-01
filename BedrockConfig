@@ -1,0 +1,20 @@
+package com.codebaseanalyzer.base.config;
+
+import software.amazon.awssdk.auth.credentials.DefaultCredentialsProvider;
+import software.amazon.awssdk.auth.credentials.ProfileCredentialsProvider;
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.bedrockruntime.BedrockRuntimeClient;
+
+public class BedrockConfig {
+    private static BedrockRuntimeClient client;
+
+    public static BedrockRuntimeClient getClient() {
+        if (client == null) {
+            client = BedrockRuntimeClient.builder()
+                    .credentialsProvider(DefaultCredentialsProvider.create())
+                    .region(Region.US_EAST_1)
+                    .build();
+        }
+        return client;
+    }
+}
