@@ -85,6 +85,19 @@
             <artifactId>sdk-core</artifactId>
             <version>${aws.java.sdk.version}</version>
         </dependency>
+        <!-- AWS SNS Dependency -->
+		<dependency>
+		    <groupId>software.amazon.awssdk</groupId>
+		    <artifactId>sns</artifactId>
+		    <version>${aws.java.sdk.version}</version>
+		</dependency>
+		
+		<!-- AWS SQS Dependency -->
+		<dependency>
+		    <groupId>software.amazon.awssdk</groupId>
+		    <artifactId>sqs</artifactId>
+		    <version>${aws.java.sdk.version}</version>
+		</dependency>
     </dependencies>
 
     <build>
