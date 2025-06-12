@@ -46,18 +46,18 @@ Once done we will get a review suggestions.
     - Lambda example:
        https://docs.aws.amazon.com/textract/latest/dg/lambda.html
 
-   - Setup Knowledge Base :
-      https://catalog.workshops.aws/amazon-bedrock/en-US/120-rag
+    - Setup Knowledge Base :
+       https://catalog.workshops.aws/amazon-bedrock/en-US/120-rag
 
-   - Model Access :
-     https://docs.aws.amazon.com/bedrock/latest/userguide/getting-started.html#getting-started-bedrock-role
+    - Model Access :
+       https://docs.aws.amazon.com/bedrock/latest/userguide/getting-started.html#getting-started-bedrock-role
 
-   - Block in Textract: 
-     https://docs.aws.amazon.com/textract/latest/dg/API_Block.html
+    - Block in Textract: 
+       https://docs.aws.amazon.com/textract/latest/dg/API_Block.html
 
-  - AWS Well Architected framework and pillars :
+    - AWS Well Architected framework and pillars :
 
-   https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-    whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc
+     https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-        whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc
 
  
     
